@@ -5,8 +5,13 @@
 --     https://www.wowinterface.com/downloads/fileinfo.php?id=14878#info
 --     https://www.curseforge.com/wow/addons/eventhorizon
 --
--- the class_my_config.lua replaces the use of the EventHorizon_class/EventHorizon_class.lua
+-- this file has all options commented out and is a placeholder only
+-- the files included in the curse distribution of EventHorizon_Configs are placeholders only
+--
+-- the class_my_config.lua replaces the use of the EventHorizon_class/config.lua
 -- for class-specific customizations.
+--
+-- to customize your class copy the default EventHorizon_class/config.lua to EventHorizon_Configs/class_my_config.lua or uncomment options below for core changes
 --
 
 
@@ -18,23 +23,23 @@ local config = EventHorizon.config
 --
 
 -- Past and future determine the number of seconds displayed before and after the current time.
-config.showTrinketBars = true			-- Show bars for your equipped trinkets? Default = true
-config.past = -3
+--  config.showTrinketBars = true			-- Show bars for your equipped trinkets? Default = true
+--  config.past = -3
 -- default: config.future = 12
-config.future = 17
+--  config.future = 17
 
 -- Width and height of a single bar.
-config.width = 170
-config.height = 12
+--  config.width = 170
+--  config.height = 12
 
 -- Create the backdrop frame and border.
--- config.backdrop = true
+--  config.backdrop = true
 -- Set it to nil to remove it, like so:
-config.backdrop = nil
-config.edgesize = 0
+--  config.backdrop = nil
+--  config.edgesize = 0
 	
 -- Use the default Blizzard icon border.
-config.iconborder = nil
+--  config.iconborder = nil
 
 
 --
@@ -53,31 +58,31 @@ config.iconborder = nil
 local c = EventHorizon.colors
 -- Sent Marker - line when a spellcast is sent to the server. 
 --    Default = {true,1,1} (class colored, bright and opaque)
-c.sent = {true,Priest and 0.7 or 1,1}
+--  c.sent = {true,Priest and 0.7 or 1,1}
 -- Tick markers. Default = {true,1,1} (class colored, bright and opaque)
-c.tick = {true,Priest and 0.7 or 1,1}
+--  c.tick = {true,Priest and 0.7 or 1,1}
 -- Casting bars. Default = {0,1,0,0.3} (green, 0.3 unmodified alpha)
-c.casting = {0,1,0,0.3}
+--  c.casting = {0,1,0,0.3}
 -- Cooldown bars. Default = {1,1,1,0.3} (white, 0.3 unmodified alpha)
-c.cooldown = {1,1,1,0.3}
+--  c.cooldown = {1,1,1,0.3}
 -- YOUR Debuff bars. Default = {true,1,0.3} (class colored, bright, 0.3 unmodified alpha)
 -- c.debuffmine = {true,Priest and 0.7 or 1,0.3}
-c.debuffmine = {1,0,0,0.3}
+--  c.debuffmine = {1,0,0,0.3}
 -- OTHER PLAYERS' debuff bars. Default = {true,0.5,0.3} (class colored, darkened by 50%, 0.3 unmodified alpha)
-c.debuff = {true,0.5,0.3}			
+--  c.debuff = {true,0.5,0.3}			
 -- Buff bars. Default = {true,1,0.3} (class colored, bright, 0.3 unmodified alpha)			
 -- c.playerbuff = {true,Priest and 0.7 or 1,0.3}
-c.playerbuff = {1,1,0,0.3}
+--  c.playerbuff = {1,1,0,0.3}
 -- Set the color of the GCD indicator.
-c.gcdColor = {0.4,0.4,0.4,0.3}
+--  c.gcdColor = {0.4,0.4,0.4,0.3}
 -- Individual bar background color.
 -- config.barbgcolor = {0.3,0.3,0.3,0.5}
-c.barbgcolor = {0.3,0.3,0.3,0.1}
+--  c.barbgcolor = {0.3,0.3,0.3,0.1}
 -- Frame background color.
 -- config.bgcolor = {0.3,0.3,0.3,0.5}
-c.bgcolor = {0,0,0,0.6}
+--  c.bgcolor = {0,0,0,0.6}
 -- Border color.
-c.bordercolor = {1,1,1,0.1}
+--  c.bordercolor = {1,1,1,0.1}
 
 
 
@@ -86,15 +91,6 @@ c.bordercolor = {1,1,1,0.1}
 --
 
 -- Seconds at which to place the lines. This can be in any order.
-config.lines = {1.5,3,4.5,6,7.5,9,10.5,15} 
+--  config.lines = {1.5,3,4.5,6,7.5,9,10.5,15} 
 -- Color of the lines (r,g,b,alpha). 
-config.linesColor = {0,0,0,0.3} 
-
-
-
---
--- Event Horizon - Vitals Config
---
-
--- should inherit the useful stuff.. hopefully
-
+--  config.linesColor = {0,0,0,0.3} 
