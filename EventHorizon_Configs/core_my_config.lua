@@ -1,17 +1,14 @@
 --
 -- core_my_config.lua
 --
--- this file replaces the use of the myconfig.lua for addon-wide customizations as described below
+-- this file replaces the use of the myconfig.lua for addon-wide customizations as originally described in
 --     https://www.wowinterface.com/downloads/fileinfo.php?id=14878#info
 --     https://www.curseforge.com/wow/addons/eventhorizon
 --
--- this file has all options commented out and is a placeholder only
--- the files included in the curse distribution of EventHorizon_Configs are placeholders only
+-- modify or replace this file with your own core_my_config.lua or suffer my defaults! 
 --
--- the class_my_config.lua replaces the use of the EventHorizon_class/config.lua
--- for class-specific customizations.
---
--- to customize your class copy the default EventHorizon_class/config.lua to EventHorizon_Configs/class_my_config.lua or uncomment options below for core changes
+-- all other files included in the curse distribution of EventHorizon_Configs are placeholders only, so
+-- to customize your class copy the default EventHorizon_class/config.lua to EventHorizon_Configs/class_my_config.lua
 --
 
 
@@ -82,8 +79,6 @@ c.barbgcolor = {0.3,0.3,0.3,0.1}
 c.bgcolor = {0,0,0,0.6}
 -- Border color.
 c.bordercolor = {1,1,1,0.1}
-
-
 
 
 --
